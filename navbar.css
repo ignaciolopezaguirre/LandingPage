@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(205, 247, 246);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(60, 145, 230);
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+  margin-left: 600px;
+}
+
+.logo {
+  margin: 0px;
+}
+
+.imagen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+}
+
+nav .lista :hover {
+  color: beige;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
