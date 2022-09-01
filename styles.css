@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(3, 4, 94);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(134, 224, 239);
+  height: 65px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+main{
+    margin-top: 70px ;
+    
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  margin-left: 600px;
+}
+
+.logo {
+  margin: 0px;
+}
+
+.imagen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+}
+
+nav .lista :hover {
+  color: beige;
+  cursor: pointer;
+}
+
+.lista a {
+  color: black;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: 2px solid beige;
+  padding: 10px 8px;
+  border-radius: 10px;
+}
+
+#presentacion {
+  margin-top: 95px;
+  margin-left: 350px;
+  padding: 70px 0px;
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 119, 182);
+  border-radius: 25px;
+}
+
+.presentacion-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  gap: 30px;
+  width: 500px;
+}
+.presentacion-info h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: snow;
+}
+.presentacion-info p {
+  font-weight: 600;
+  color: black;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.presentacion-info a {
+  width: 100px;
+  background-color: chocolate;
+  color: wheat;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 14px;
+  gap: 50;
+  border: 5px chocolate solid;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.description-text {
+  margin-top: 65px;
+  color: whitesmoke;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: orangered;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px, 10px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+#products {
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#products h2 {
+  color: lightseagreen;
+  font-size: 35px;
+  font-weight: 800;
+  width: 15%;
+  display: flex;
+}
+
+.product img {
+  width: 220px;
+  height: 220px;
+  border-radius: 16px;
+}
+.product-container {
+  display: flex;
+  flex-direction: row;
+}
+.product {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-sta;
+  flex-wrap: nowrap;
+  background-color: teal;
+  width: 555px;
+  height: 300px;
+  border-radius: 20px;
+  gap: 35px;
+  padding: 40px 15px;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 35px;
+}
+
+.product-top {
+  color: rgb(35, 37, 40);
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.product-mid {
+  font-size: 16px;
+  align-items: center;
+}
+
+.price {
+  color: rgb(13, 0, 164);
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.pago {
+  color: snow;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.product-bottom a {
+  color: rgb(22, 143, 255);
+  font-size: 16px;
+  font-weight: 800;
+  border: 2px solid;
+  padding: 10px 8px;
+  border-radius: 10px;
+}
+
+.comprar :hover {
+  color: azure;
+  cursor: pointer;
+}
+.product-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h2 {
+  margin-top: 70px;
+  font-size: 30px;
+  color: tomato;
+  background-color: black;
+  padding: 10px 8px;
+  border-radius: 10px;
+}
+
+.contactanos {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.contactanos a {
+  font-size: 18px;
+  color: tomato;
+  background-color: black;
+  padding: 15px 8px;
+  border-radius: 15px;
+}
+
+.contactanos :hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+footer p {
+  color: slategray;
+  font-size: 18px;
+  font-weight: 300;
+}
+
